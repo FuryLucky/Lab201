@@ -9,6 +9,7 @@
     
     <!-- Reset CSS -->
     <link rel="stylesheet" href="/assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
     <!-- CSS Perso -->
 </head>
 <body>

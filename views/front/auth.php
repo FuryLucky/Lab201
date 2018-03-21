@@ -10,7 +10,7 @@
 <!-- ******************** Page d'Accueil ******************** -->
 <!-- ******************************************************** -->
 
-<?php include  __DIR__ . '/../partials/nav.php'; ?>
+<?php include  __DIR__ . '/../partials/nav.html'; ?>
 
 <!-- ob_get_clean -> récupere les octets dans la mémoire tampon et les mets dans une variable | echo pour l'afficher -->
 <?php $content = ob_get_clean(); ?>

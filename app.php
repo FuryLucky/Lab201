@@ -9,13 +9,9 @@ define('DB_PASSWORD', '');
 define('DB_DBNAME', 'NOM_A_DEFINIR');
 
 # autoloader => Relis les fichiers
-// require_once __DIR__ . '/library/helpers.php';
-// require_once __DIR__ . '/model/insert_spend_model.php';
-// require_once __DIR__ . '/model/spend_model.php';
-// require_once __DIR__ . '/model/user_spends_model.php';
-// require_once __DIR__ . '/model/user_model.php';
 require __DIR__.'/controllers/back_controller.php';
 require __DIR__.'/controllers/front_controller.php';
+require __DIR__ . '/models/perso_result_model.php';
 
 # request => Requête serveur
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
